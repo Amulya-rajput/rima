@@ -1,0 +1,884 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    width: 100%;
+
+}
+
+.top-header {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.menu {
+    width: auto;
+    float: left;
+
+
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.menu li:hover {
+    border-top: 3px solid red;
+    color: red;
+    cursor: pointer;
+}
+
+
+.me {
+    border-top: 3px solid red;
+
+}
+
+
+.dropdown {
+    width: auto;
+    float: right;
+    color: red;
+    font-size: 15px;
+
+}
+
+.dropdown:hover {
+    border-top: 3px solid red;
+}
+
+.mid-header {
+    width: 100%;
+    float: left;
+}
+
+.logo {
+    width: auto;
+    float: left;
+}
+
+.logo img {
+
+    width: 150px;
+    float: left;
+}
+
+.menu1 {
+    width: auto;
+    float: right;
+    margin-top: 30px;
+}
+
+.menu1 ul li {
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+
+
+.menu1 ul li:hover .dropdown2 {
+    display: block;
+
+
+}
+
+.menu1 ul li a {
+    display: inline-block;
+    margin: 10px 10px;
+    color: black;
+    font-family: arial;
+
+}
+
+.dropdown2 {
+    display: none;
+    position: absolute;
+    border: 2px solid #ddd;
+    width: 200px;
+    background: white;
+    top: 33px;
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 10px;
+}
+
+.dropdown2 li {
+    width: 100%;
+    border-top: 1px solid #ddd;
+
+}
+
+.help:hover {
+    border-top: 3px solid red;
+    cursor: pointer;
+    background-color: #f5eeee;
+
+}
+
+
+.fa-user-circle-o {
+    color: black;
+
+}
+
+.banner {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+.banner-img img {
+    float: right;
+    width: 800px;
+}
+
+
+
+.banner-text h2 {
+    width: 400px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-family: arial;
+    font-size: 30px;
+}
+
+.banner-text h5 {
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: arial;
+    font-size: 15px;
+
+}
+
+
+.banner-text button {
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: arial;
+    padding: 15px;
+    width: 150px;
+    border-radius: 10px;
+    float: left;
+}
+
+.banner-text button a {
+    color: white;
+
+}
+
+.banner-text i {
+    float: left;
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+
+
+}
+
+.recharge {
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.recharge h1 {
+    font-family: arial;
+    width: auto;
+}
+
+.buttons {
+
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+
+}
+
+.buttons button {
+    background-color: rgb(193, 193, 243);
+    padding: 10px;
+    border-radius: 20px;
+    border-color: rgb(193, 193, 243);
+    margin-left: 30px;
+}
+
+
+
+.buttons button a {
+    margin-left: 10px;
+}
+
+.mobile {
+    margin-top: 120px;
+    width: auto;
+
+
+}
+
+
+
+.mobile input {
+
+    padding: 13px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid rgb(212, 212, 245);
+
+}
+
+.mobile button {
+    background-color: black;
+    font-family: arial;
+    padding: 10px;
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+
+.mobile button a {
+    color: white;
+
+}
+
+
+.free {
+    width: 100%;
+    margin-top: 50px;
+    display: inline-block;
+    background-color: red;
+}
+
+
+.free-contant {
+    margin-bottom: 20px;
+}
+
+.free-img img {
+    width: 40px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.free-img h5 {
+    display: inline-block;
+    font-family: arial;
+    color: white;
+}
+
+.free-img button {
+
+
+    border: 2px solid white;
+    color: white;
+    font-family: arial;
+    padding: 5px;
+    border-radius: 20px;
+    width: 80px;
+    margin-left: 20px;
+}
+
+.connection {
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 50px;
+}
+
+.connection-content {
+    width: 100%;
+
+
+
+}
+
+.connection-content h2 {
+    font-family: arial;
+    width: auto;
+}
+
+.connection-icon {
+
+    width: 100%;
+    margin-top: 40px;
+    float: left;
+
+}
+
+.connection-icon button {
+
+    margin-left: 10px;
+    background-color: rgb(193, 193, 243);
+    padding: 20px;
+    border-radius: 30px;
+    border-color: rgb(193, 193, 243);
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+.connection-icon p {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.connection-icon button i {
+    color: black;
+    font-size: 20px;
+}
+
+.connection button:hover {
+    transform: scale(1.1);
+    border: 1px solid rgb(205, 202, 202);
+}
+
+.red {
+    float: left;
+    margin-top: 50px;
+    background-color: red;
+    width: 100%;
+    border-radius: 20px;
+
+
+}
+
+.red img {
+    width: 50px;
+    display: inline-block;
+
+}
+
+.red h4 {
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+
+}
+
+.red h5 {
+    display: inline-block;
+    color: white;
+}
+
+.red button {
+    border: 1px solid white;
+    background: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+.red button a {
+    color: white;
+}
+
+.recommand {
+    width: 100%;
+    float: left;
+    background-color: #f7f7fa;
+
+}
+
+.recommand-text {
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.col-main {
+
+    width: 100%;
+    float: left;
+
+}
+
+.col {
+
+    width: 31%;
+    float: left;
+    margin: 0 13px;
+
+}
+
+.col-img img {
+    width: 358px;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: -3px;
+
+}
+
+.col-text {
+    width: auto;
+    float: left;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 0 0 20px 20px;
+
+
+}
+
+.col-text h3 {
+    color: red;
+    font-family: arial;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+.col-text h4 {
+    color: black;
+    font-family: arial;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.col-text h5 {
+    color: rgb(165, 158, 158);
+    font-family: arial;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.col-text button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+
+
+.col-text button a {
+    color: white;
+}
+
+.col-text p {
+
+    color: blue;
+    display: inline-block;
+}
+
+.best {
+
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+
+.bg {
+    background-image: url(../images/conversational-widget-bg-web.jfif);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+
+.above {
+    width: 500px;
+    text-align: center;
+
+}
+
+.above h2 {
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+    width: 500px;
+}
+
+.best-text {
+    width: auto;
+    text-align: center;
+    color: white;
+    background-color: rgb(215, 215, 231);
+    border-radius: 20px;
+}
+
+
+.best-text h5 {
+    color: red;
+    font-family: arial;
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+}
+
+
+.best-text h4 {
+
+    font-family: arial;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: black;
+
+}
+
+
+.best-text h6 {
+
+    font-family: arial;
+    color: black;
+
+}
+
+.numb {
+
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.numb button {
+
+    text-align: center;
+    width: 584px;
+    background-color: #e3e5ff;
+    border-color: #e3e5ff;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+
+
+}
+
+.numb button:hover {
+    transform: scale(1.1);
+
+
+}
+
+
+.numb button a {
+    color: black;
+    font-family: arial;
+
+
+}
+
+
+.buisness {
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+    background-color: rgb(233, 233, 246);
+}
+
+.buisness-text {
+    width: auto;
+    float: left;
+
+}
+
+.buisness-text h1 {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: arial;
+
+}
+
+
+.buisness-text h3 {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: arial;
+
+}
+
+.buisness-text p {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue;
+    cursor: pointer;
+    font-family: arial;
+}
+
+.buisness-text p i {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.box-main {
+
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+
+
+}
+
+
+
+
+.box {
+    width: 23%;
+    margin: 0 10px;
+    float: left;
+    background-color: #f7f7fa;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+
+
+.box-img {
+    width: auto;
+    float: left;
+
+}
+
+.box-img img {
+    width: 50px;
+    float: left;
+
+}
+
+.box-text {
+    width: 100%;
+    float: left;
+    font-family: arial;
+
+}
+
+.box-text h4 {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box-text h4 i {
+
+    color: blue;
+    margin-left: 10px;
+}
+
+
+
+.box-text h6 {
+    width: 250px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.footer {
+    width: 100%;
+    float: left;
+    margin: 20px;
+}
+
+.footer-contant {
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+
+.footer-box-main {
+
+    width: 100%;
+    float: left;
+    margin: 0 10px;
+}
+
+.footer-box {
+    width: 25%;
+    float: left;
+
+
+}
+
+.footer-menu {
+
+    width: auto;
+    display: inline-block;
+}
+
+.footer-menu h4 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 900;
+
+}
+
+.footer-menu li {
+    margin-top: 15px;
+
+
+}
+
+.information {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    border-top: 2px solid rgb(184, 180, 180);
+}
+
+.info-main {
+
+    width: 100%;
+    float: left;
+    
+}
+
+.info {
+    width: 30%;
+    float: left;
+}
+
+.info-img img {
+    width: 60px;
+    float: left;
+}
+
+.getapp {
+    width: auto;
+    float: left;
+
+}
+
+.getapp h4 {
+    color: gray;
+    width: 200px;
+    display: inline-block;
+
+
+}
+
+.getapp img {
+    width: 200px;
+    display: inline-block;
+}
+
+.social-media {
+    width: 20%;
+    display: inline-block;
+    margin-left: 50px;
+
+
+}
+
+
+.social-media h5 {
+   
+    display: inline-block;
+
+}
+
+
+.icons
+{
+       display: inline-block;
+    
+}
+
+.but{
+    width: 20%;
+    float: right;
+}
+
+.but button{
+    border-color: black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    width: 150px;
+}
+
+.but button i{
+    color: black;
+    margin-left: 20px;
+}
+
+.foot-menu{
+    width: 100%;
+    float: left;
+    background-color: rgb(246, 246, 253);
+    margin-top: 50px;
+}
+
+.foot-menu li{
+    display: inline-block;
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.copy{
+
+    width: 100%;
+    float: left;
+}
+
+.copy-img{
+    width: auto;
+    float: left;
+    margin-top: 30px;
+}
+
+.copy-img img{
+    width: 100px;
+    display: inline-block;
+}
+
+
+.right{
+width: 500px;
+display: inline-block;
+}
+
+.right i{
+    display: inline-block;
+
+}
+
+.right p{
+    display: inline-block;
+
+}
